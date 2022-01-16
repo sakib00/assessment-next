@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
-import { ListItemComponent } from '../components/listItemComponent';
-import { Loader } from '../components/loader';
-import { Modal } from '../components/modal';
+import { ListItemComponent } from '../components/ListItemComponent';
+import { Loader } from '../components/Loader';
+import { Modal } from '../components/Modal';
 import FavoritesContext from '../contexts/FavoriteContext';
 
 export default function Favorite() {

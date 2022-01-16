@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { SideNav } from './navigation/sidenav';
+import { SideNav } from './navigation/SideNav';
 import FavoritesContext from '../contexts/FavoriteContext';
 
 export default function Layout({ children }) {
