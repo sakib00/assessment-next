@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import { ListItemComponent } from '../components/ListItemComponent';
-import { Loader } from '../components/Loader';
-import { Modal } from '../components/Modal';
-import { Pagination } from '../components/Pagination';
+import { ListItemComponent } from '../components/listItemComponent';
+import { Loader } from '../components/loader';
+import { Modal } from '../components/modal';
+import { Pagination } from '../components/pagination';
 
 export default function Author() {
   const [authors, setAuthors] = useState([]);
